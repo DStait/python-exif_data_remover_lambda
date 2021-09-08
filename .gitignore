@@ -1,0 +1,14 @@
+# Terraform providers 
+.terraform/
+
+# Terraform state files & Lock
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Zipped python_exif_data_remover 
+python_exif_data_remover.zip
+
+# Ignore everything except the .py files in python_exif_data_remover
+python_exif_data_remover/*
+!python_exif_data_remover/*.py
